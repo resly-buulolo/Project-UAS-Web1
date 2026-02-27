@@ -125,7 +125,7 @@ switch ($page) {
 
     // ===== HOME =====
     case 'home':
-        include "pages/home.php";
+        include "home.php";
         break;
 
     // ===== PRODUK =====
@@ -170,9 +170,20 @@ switch ($page) {
         include "transaksi/hapus_transaksi.php";
         break;
 
+     // ===== LAPORAN =====
+    case 'laporan':
+        include "laporan.php";
+        break;
+
+
+    // ===== PROFILE =====
+    case 'profile':
+       include "profile.php";
+        break;
+
 
     default:
-        include "pages/home.php";
+        include "home.php";
 }
 ?>
 
